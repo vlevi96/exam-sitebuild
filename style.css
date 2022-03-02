@@ -108,8 +108,7 @@ div#card-container div#card div#card-content{
     flex-direction: column;
     justify-content: space-between;
     padding:40px;
-    border: 1px solid #1a24fb;
-    
+    border: 1px solid #1a24fb; 
 }
 div#card-container div#card div#card-content div#number{
     position: absolute;
@@ -145,6 +144,7 @@ div#card-container button{
     width:100%;
     height:18px;
     font-size: 14px;
+    margin-top: 10px;
 }
 div#card-container button .material-icons
 {
