@@ -132,3 +132,7 @@ div#card-container button .material-icons
 {
     font-size: 18px;
 }
+div#card-container button:hover{
+    color: #f8f7f3;
+    background-color: #1a24fb;
+}
