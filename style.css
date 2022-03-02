@@ -7,7 +7,7 @@
   
     background: transparent;
   
-    font-family: inherit;
+    font-family: 'Overpass', sans-serif;
     
     text-decoration: none;
 }
@@ -44,6 +44,7 @@ button, input, textarea, select {
 body{
     /* font-family: 'Montserrat', sans-serif; */
     background-color: #f8f7f3;
+    color: #1a24fb;
 }
 /* div{
     font-family: 'Overpass', sans-serif;
@@ -73,4 +74,61 @@ header h1{
 }
 .material-icons{
     font-size: 24px;
+}
+div#card-container{
+    display:flex;
+    flex-wrap: wrap;
+    gap:100px 20px;
+    max-width:1280px;
+    justify-content: center;
+    align-items: center;
+}
+div#card-container div#card{
+    width:400px;
+    height:400px;
+
+}
+div#card-container div#card div#card-content{
+    height: 100%;
+    position: relative;
+    padding:40px;
+    border: 1px solid #1a24fb;
+    
+}
+div#card-container div#card div#card-content div#number{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right:0;
+    top:0;
+    width:40px;
+    height:40px;
+    font-size:24px;
+}
+div#card-container div#card div#card-content h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size:36px;
+    font-weight: 700;
+}
+div#card-container div#card div#card-content h2{
+    font-size:12px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+}
+div#card-container div#card div#card-content p{
+    font-size:16px;
+    font-weight: 400;
+}
+div#card-container button{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height:18px;
+    font-size: 14px;
+}
+div#card-container button .material-icons
+{
+    font-size: 18px;
 }
